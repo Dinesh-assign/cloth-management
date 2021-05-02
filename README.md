@@ -11,8 +11,8 @@ This Api is making two types of users for Cloth Management
 # Admin Functions
 Only Admin can add, update , delete and share cloths with others users.<br>
 Add Cloth Url (POST Method):-<br>
-Update Cloth Url (POST Method):-<br>
-Delete Cloth Url (POST Method):-<br>
+Update Cloth Url (PUT Method):-<br>
+Delete Cloth Url (Delete Method):-<br>
 Share Cloth Url (POST Method):-<br>
 
 Admin can also see all cloths.<br>
