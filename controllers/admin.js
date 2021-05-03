@@ -87,7 +87,7 @@ exports.postShareCloth=async (req,res,next)=>{
         const id=req.body.id;
         const email=req.body.email;
         //Cloth Searching
-        const cloth=await Cloth.findOne({_id:id}).then(cloth=>{
+        const cloth=await Cloth.findOne({_id:mongoose.Types.ObjectId(id)}).then(cloth=>{
             if(!cloth){
                 res.status(400).json({message:"Cloth is not exists"});
             }
