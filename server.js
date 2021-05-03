@@ -20,6 +20,7 @@ const fileStorage=multer.diskStorage({
   },
   filename:(req,file,cb)=>{
     req.filename=Date.now()+'-'+file.originalname;
+    console.log(req.filename);
     cb(null,Date.now()+'-'+file.originalname);
   }
 });
