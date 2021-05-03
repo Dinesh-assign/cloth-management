@@ -11,10 +11,10 @@ exports.postAddCloth=(req,res,next)=>{
         const quantity=req.body.quantity;
         const size=req.body.size;
         const img= {
-            data: fs.readFileSync(path.join(__dirname +'/../'+ '/images/' + req.file.filename)),
+            data: fs.readFileSync(path.join(__dirname +'/../'+ '/images/' + req.filename)),
             contentType: 'image/png'
         }
-        fs.unlinkSync(path.join(__dirname +'/../'+ '/images/' + req.file.filename));
+        fs.unlinkSync(path.join(__dirname +'/../'+ '/images/' + req.filename));
         const cloth=new Cloth({
             name:name,
             price:price,
