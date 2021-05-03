@@ -44,7 +44,7 @@ mongoose
   )
   .then(result=>{
     app.listen(process.env.PORT || 5000);
-    console.log("server start listening on port 3000");
+    console.log("server started");
   })
   .catch(err=>{
     console.log(err);

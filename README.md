@@ -10,17 +10,17 @@ This Api is making two types of users for Cloth Management
 
 # Admin Functions
 Only Admin can add, update , delete and share cloths with others users.<br>
-Add Cloth Url (POST Method):-<br>
-Update Cloth Url (PUT Method):-<br>
-Delete Cloth Url (Delete Method):-<br>
-Share Cloth Url (POST Method):-<br>
+Add Cloth Url (POST Method):- https://boiling-tor-34942.herokuapp.com/admin/addCloth <br>
+Update Cloth Url (PUT Method):-  https://boiling-tor-34942.herokuapp.com/admin/updateCloth <br>
+Delete Cloth Url (Delete Method):- https://boiling-tor-34942.herokuapp.com/admin/deleteCloth <br>
+Share Cloth Url (POST Method):- https://boiling-tor-34942.herokuapp.com/admin/shareCloth <br>
 
 Admin can also see all cloths.<br>
-All Cloth Url (GET Method):- <br>
+All Cloth Url (GET Method):- https://boiling-tor-34942.herokuapp.com/admin/allCloth <br>
 
 # Customer Functions
 Customer can only see shared cloths.<br>
-Shared Cloth Url (GET Method):- <br>
+Shared Cloth Url (GET Method):-https://boiling-tor-34942.herokuapp.com/customer/sharedCloths  <br>
 
 # Setup
 
