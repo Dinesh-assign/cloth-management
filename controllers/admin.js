@@ -2,6 +2,7 @@ const Cloth=require('../models/cloth');
 const User = require('../models/user');
 var fs = require('fs');
 var path=require('path');
+const mongoose=require('mongoose');
 exports.postAddCloth=(req,res,next)=>{
     if(req.user.role==="admin"){
         const name=req.body.name;
